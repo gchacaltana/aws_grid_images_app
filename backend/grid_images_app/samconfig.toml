@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-lab"
+s3_bucket = "sam-app-images-us-west-2-301386327"
+s3_prefix = "sam-lab"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
